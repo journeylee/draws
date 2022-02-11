@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-09T11:38:41.389Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="5C9mhyzYr839ohPBGhRD" version="16.5.4" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-11T16:54:33.141Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.2 Safari/605.1.15" etag="e5VhmmU9gOzmhezVcYvo" version="16.5.4" type="github">
   <diagram id="pM_QKM8PrSaR8v6g-7Wl" name="Page-1">
-    <mxGraphModel dx="2066" dy="1160" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1298" dy="840" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,19 +14,41 @@
           <mxGeometry x="45" y="190" width="10" height="80" as="geometry" />
         </mxCell>
         <mxCell id="jYRjQSjXTqZ1eCucx87h-16" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jYRjQSjXTqZ1eCucx87h-1">
-          <mxGeometry x="45" y="420" width="10" height="120" as="geometry" />
+          <mxGeometry x="45" y="420" width="10" height="160" as="geometry" />
         </mxCell>
         <mxCell id="jYRjQSjXTqZ1eCucx87h-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="jYRjQSjXTqZ1eCucx87h-1">
-          <mxGeometry x="45" y="580" width="10" height="40" as="geometry" />
+          <mxGeometry x="45" y="630" width="10" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="jYRjQSjXTqZ1eCucx87h-36" value="创建BC任务" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="jYRjQSjXTqZ1eCucx87h-16" parent="jYRjQSjXTqZ1eCucx87h-1" source="jYRjQSjXTqZ1eCucx87h-16">
+        <mxCell id="jYRjQSjXTqZ1eCucx87h-36" value="检查dataset" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="jYRjQSjXTqZ1eCucx87h-16" parent="jYRjQSjXTqZ1eCucx87h-1" source="jYRjQSjXTqZ1eCucx87h-16">
           <mxGeometry x="-0.0714" y="10" relative="1" as="geometry">
             <mxPoint x="45" y="590" as="sourcePoint" />
             <Array as="points">
               <mxPoint x="90" y="440" />
-              <mxPoint x="90" y="520" />
+              <mxPoint x="90" y="470" />
             </Array>
             <mxPoint x="160" y="560" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYRjQSjXTqZ1eCucx87h-42" value="获取对应pipline_node" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="jYRjQSjXTqZ1eCucx87h-1">
+          <mxGeometry x="-0.0714" y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="490" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="490" />
+              <mxPoint x="90" y="520" />
+            </Array>
+            <mxPoint x="55" y="520" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jYRjQSjXTqZ1eCucx87h-43" value="获取对应pipline_node" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="jYRjQSjXTqZ1eCucx87h-1">
+          <mxGeometry x="-0.0714" y="10" relative="1" as="geometry">
+            <mxPoint x="55" y="540" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="540" />
+              <mxPoint x="90" y="570" />
+            </Array>
+            <mxPoint x="55" y="570" as="targetPoint" />
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
