@@ -1,1 +1,354 @@
-<mxfile host="app.diagrams.net" modified="2022-04-19T08:59:00.225Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" version="17.4.5" etag="eHIYxuaEvzS_wncz1aTz" type="github"><diagram id="DVDUa2uIKM3LbvQtBC-P">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-04-20T11:15:02.465Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.4 Safari/605.1.15" etag="pvO4rOW27Q1yv-kvisnF" version="17.4.5" type="github">
+  <diagram id="DVDUa2uIKM3LbvQtBC-P" name="Page-1">
+    <mxGraphModel dx="1181" dy="-519" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="i_J3d_FlMscXBlYFyd48-12" value="" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="90" y="1280" width="20" height="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-46" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-12">
+          <mxGeometry x="5" y="180" width="10" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-73" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-12">
+          <mxGeometry x="5" y="600" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-13" value="Java服务端" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="260" y="1300" width="100" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-20" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-13">
+          <mxGeometry x="45" y="80" width="10" height="280" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-30" value="查询场景信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" target="i_J3d_FlMscXBlYFyd48-20" parent="i_J3d_FlMscXBlYFyd48-13" source="i_J3d_FlMscXBlYFyd48-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="110" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="110" />
+              <mxPoint x="100" y="120" />
+            </Array>
+            <mxPoint x="60" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-37" value="生成预览token和记录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13" source="i_J3d_FlMscXBlYFyd48-20" target="i_J3d_FlMscXBlYFyd48-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="90" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="200" />
+              <mxPoint x="100" y="210" />
+            </Array>
+            <mxPoint x="90" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-55" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-13">
+          <mxGeometry x="45" y="510" width="10" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-56" value="查询场景信息" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13" source="i_J3d_FlMscXBlYFyd48-55" target="i_J3d_FlMscXBlYFyd48-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="510" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="530" />
+              <mxPoint x="90" y="540" />
+            </Array>
+            <mxPoint x="80" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-69" value="生成发布token和记录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13" source="i_J3d_FlMscXBlYFyd48-55" target="i_J3d_FlMscXBlYFyd48-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="550" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="560" />
+              <mxPoint x="90" y="570" />
+            </Array>
+            <mxPoint x="70" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-77" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-13">
+          <mxGeometry x="45" y="800" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-78" value="生成新发布token和记录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13" source="i_J3d_FlMscXBlYFyd48-77" target="i_J3d_FlMscXBlYFyd48-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="64.97000000000003" y="820" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="820" />
+              <mxPoint x="90" y="830" />
+            </Array>
+            <mxPoint x="64.97000000000003" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-79" value="预览token关联到场景" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13" source="i_J3d_FlMscXBlYFyd48-20" target="i_J3d_FlMscXBlYFyd48-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="330" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="100" y="330" />
+              <mxPoint x="100" y="340" />
+            </Array>
+            <mxPoint x="65" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-80" value="发布token关联到场景" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="710" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="710" />
+              <mxPoint x="90" y="720" />
+            </Array>
+            <mxPoint x="55" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-81" value="link方式copy一份模型目录" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="910" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="910" />
+              <mxPoint x="90" y="920" />
+            </Array>
+            <mxPoint x="55" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-88" value="正式发布？新发布token替换到场景" style="edgeStyle=orthogonalEdgeStyle;html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;" edge="1" parent="i_J3d_FlMscXBlYFyd48-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="1038" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="1038" />
+              <mxPoint x="90" y="1048" />
+            </Array>
+            <mxPoint x="55" y="1048" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-14" value="EAS算法" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="1300" width="100" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-31" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-14">
+          <mxGeometry x="45" y="140" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-64" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-14">
+          <mxGeometry x="45" y="240" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-66" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-14">
+          <mxGeometry x="45" y="600" width="10" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-86" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-14">
+          <mxGeometry x="45" y="970" width="10" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-21" value="预览请求" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" target="i_J3d_FlMscXBlYFyd48-20" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="100" y="1380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-32" value="重建请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="i_J3d_FlMscXBlYFyd48-31">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="315" y="1440" as="sourcePoint" />
+            <mxPoint x="515" y="1440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="1440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-33" value="重建完成消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-31" target="i_J3d_FlMscXBlYFyd48-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="1500" as="sourcePoint" />
+            <mxPoint x="340" y="1500" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="1480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-34" value="模型转换请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="315" y="1540" as="sourcePoint" />
+            <mxPoint x="515" y="1540" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="450" y="1540" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-36" value="转换完成消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="1610" as="sourcePoint" />
+            <mxPoint x="314" y="1610" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="448" y="1610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-38" value="预览链接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1660" as="sourcePoint" />
+            <mxPoint x="105" y="1659" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="244" y="1659" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-39" value="OSS" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="670" y="1300" width="100" height="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-45" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="i_J3d_FlMscXBlYFyd48-39">
+          <mxGeometry x="45" y="152" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-44" value="请求重建素材" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="530" y="1453" as="sourcePoint" />
+            <mxPoint x="715" y="1453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-48" value="轮询状态" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;exitX=0.6;exitY=0.013;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-46" target="i_J3d_FlMscXBlYFyd48-20">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="110" y="1460" as="sourcePoint" />
+            <mxPoint x="440" y="1440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-49" value="重建进度" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-20" target="i_J3d_FlMscXBlYFyd48-46">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="1540" as="sourcePoint" />
+            <mxPoint x="180" y="1520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="170" y="1490" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-50" value="转换结果" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" target="i_J3d_FlMscXBlYFyd48-39">
+          <mxGeometry x="-0.1318" y="5" width="60" relative="1" as="geometry">
+            <mxPoint x="525" y="1565" as="sourcePoint" />
+            <mxPoint x="719.5" y="1565" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-51" value="设置12小时lifetime(或更长时间？)" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry x="-0.1318" y="5" width="60" relative="1" as="geometry">
+            <mxPoint x="525" y="1590" as="sourcePoint" />
+            <mxPoint x="719.5" y="1590" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-54" value="发布" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-12" target="i_J3d_FlMscXBlYFyd48-55">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1400" as="sourcePoint" />
+            <mxPoint x="290" y="1805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-42" value="重建素材文件" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="715" y="1468" as="sourcePoint" />
+            <mxPoint x="525" y="1468" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="639" y="1468" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-67" value="模型转换请求" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-55" target="i_J3d_FlMscXBlYFyd48-66">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="314" y="1900" as="sourcePoint" />
+            <mxPoint x="514" y="1900" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="448" y="1900" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-68" value="转换完成消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="514" y="1970" as="sourcePoint" />
+            <mxPoint x="314" y="1970" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="448" y="1970" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-70" value="预览链接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-55" target="i_J3d_FlMscXBlYFyd48-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="2030" as="sourcePoint" />
+            <mxPoint x="100" y="2030" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="239" y="2030" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-71" value="轮询状态" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-73" target="i_J3d_FlMscXBlYFyd48-55">
+          <mxGeometry width="60" relative="1" as="geometry">
+            <mxPoint x="100" y="1880" as="sourcePoint" />
+            <mxPoint x="304" y="1880" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="140" y="1880" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-72" value="重建进度" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-55" target="i_J3d_FlMscXBlYFyd48-73">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="304" y="1907.4" as="sourcePoint" />
+            <mxPoint x="104" y="1907.4" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="169" y="1907.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-74" value="转换结果" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-66" target="i_J3d_FlMscXBlYFyd48-39">
+          <mxGeometry x="-0.1318" y="5" width="60" relative="1" as="geometry">
+            <mxPoint x="530" y="1920" as="sourcePoint" />
+            <mxPoint x="700" y="1920" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-76" value="后处理写数据&lt;br&gt;（上传资源/保存设置/平面图/隐私处理）" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.99857142857132" y="2100" as="sourcePoint" />
+            <mxPoint x="305.07" y="2100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-82" value="马赛克场景panaroma替换&lt;br&gt;（cutTideImage）" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;entryX=0.229;entryY=0.024;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-77" target="i_J3d_FlMscXBlYFyd48-86">
+          <mxGeometry x="-0.0607" y="1" width="60" relative="1" as="geometry">
+            <mxPoint x="350" y="2240" as="sourcePoint" />
+            <mxPoint x="514" y="2200" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="430" y="2271" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-83" value="完成消息" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" target="i_J3d_FlMscXBlYFyd48-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="2300" as="sourcePoint" />
+            <mxPoint x="313" y="2300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="447" y="2300" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-89" value="预览链接" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-77" target="i_J3d_FlMscXBlYFyd48-12">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="290" y="2320" as="sourcePoint" />
+            <mxPoint x="110" y="2320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="250" y="2390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-87" value="替换图片" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-86" target="i_J3d_FlMscXBlYFyd48-39">
+          <mxGeometry x="-0.1318" y="5" width="60" relative="1" as="geometry">
+            <mxPoint x="530" y="2210" as="sourcePoint" />
+            <mxPoint x="719.5" y="2225" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-91" value="使用新token目录保存设置、文件等" style="html=1;verticalAlign=bottom;startArrow=oval;startFill=1;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-77" target="i_J3d_FlMscXBlYFyd48-39">
+          <mxGeometry x="-0.1318" y="5" width="60" relative="1" as="geometry">
+            <mxPoint x="316" y="2150" as="sourcePoint" />
+            <mxPoint x="710" y="2250" as="targetPoint" />
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="510" y="2160" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="i_J3d_FlMscXBlYFyd48-92" value="发布/预览前" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;rounded=0;" edge="1" parent="1" source="i_J3d_FlMscXBlYFyd48-12" target="i_J3d_FlMscXBlYFyd48-77">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="99.99857142857104" y="2190" as="sourcePoint" />
+            <mxPoint x="305" y="2190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="200" y="2190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
